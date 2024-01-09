@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The Dice Game</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./script.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    </head>
+    <body>
+        <div id="mainBody">
+            <!-- Title -->
+            <div id="diceGameTitle">
+                <div id="diceGameTitleIcon">
+                    <div class="titleDie">
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                    </div>
+                    <div class="titleDie" style="transform: rotate(20deg);z-index: -1; left:-10px;">
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                        <div></div>
+                        <div class="dieDot"></div>
+                    </div>
+                </div>
+                <div id="diceGameTitleText">
+                    <h1>Dice Game</h1>
+                </div>
+            </div>
+            <!-- Main content of the website -->
+
+            <!-- Game text -->
+            <div id="gameText">
+                <h1>Each player rolls a number <br> from
+                     0 to 100. <br>the one who rolls 0 loses
+                </h1>
+            </div>
+            <!-- Actuall dice game -->
+            <div id="playerContainer">
+                <!-- player 1 -->
+                <div class="player">
+                    <div class="playerText">
+                        <h1>Player 1</h1>
+                    </div>
+                    <div class="playerDie">
+                        <h1>Die</h1>
+                    </div>
+                    <div class="playerButton">
+                        <h1>Roll</h1>
+                    </div>
+                </div>
+                <!-- player 2 -->
+                <div class="player">
+                    <div class="playerText">
+                        <h1>Player 2</h1>
+                    </div>
+                    <div class="playerDie">
+                        <h1>Die</h1>
+                    </div>
+                    <div class="playerButton">
+                        <h1>Roll</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
