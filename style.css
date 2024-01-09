@@ -17,7 +17,7 @@ body{
         height:fit-content;
         width:100vh;
         align-items: center;
-        transform: rotate(-90deg) translate(34%,-25%);
+        transform: rotate(-90deg) translate(0%,-25%);
         position: absolute;
         justify-content: center;
         top:50%;
