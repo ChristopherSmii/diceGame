@@ -15,7 +15,11 @@ function player1(){
         helpingValue=false;
         if(!tempNum){
             document.getElementsByClassName("playerDie")[1].innerHTML="Winner";
+            helpingValue=true;
         }
+    }
+    if(tempNum){
+        player2();
     }
 }
 function player2(){
