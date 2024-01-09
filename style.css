@@ -10,30 +10,7 @@ body{
     align-items: center;
 }
 /* Smart phone settings */
-@media (max-width:500px){
-    #mainBody{
-        display: flex;
-        flex-direction: column;
-        height:fit-content;
-        width:100vh;
-        align-items: center;
-        transform: rotate(-90deg) translate(0%,-25%);
-        position: absolute;
-        justify-content: center;
-        top:50%;
-    }
-    #diceGameTitle{
-        margin-top: 0px;
-        display: flex;
-        width: fit-content;
-        gap: 10px;
-    }
-    #gameText h1{
-        font-family: cursive;
-        font-size: medium;
-        margin-bottom: 0px;
-    }
-}
+
 /* Title Related Elements */
 #diceGameTitle{
     margin-top: 15px;
