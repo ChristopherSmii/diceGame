@@ -69,7 +69,9 @@ body{
     opacity: 1;
 }
 .playerDie{
-    font-size: small;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
 }
 .playerText{
     font-size: large;
