@@ -19,6 +19,7 @@ body{
         align-items: center;
         transform: rotate(-90deg) translate(34%,-25%);
         position: absolute;
+        justify-content: center;
         top:50%;
     }
     #diceGameTitle{
